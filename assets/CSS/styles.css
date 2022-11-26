@@ -1,0 +1,60 @@
+/*ESTILOS GERAIS*/
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1em;
+}
+
+/*CONTAINER*/
+.container {
+    text-align: center;
+    background-color: #ada7a7;
+    max-width: 365px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 15px;
+    border-style: groove;
+    border-color: rgb(247, 242, 242);
+}
+
+/*CALCULADORA*/
+.calculadora {
+    width: 300px;
+}
+
+/*DISPLAY CALCULADORA*/
+.display {
+    font-size: 30px;
+    text-align: right;
+    width: 100%;
+    border: double rgb(241, 230, 230);
+}
+
+/*BOTÕES*/
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(215, 198, 176);
+    border: double;
+    border-color: #c5bbbb;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/*BOTÃO HOVER*/
+.btn:hover {
+    background-color: rgb(176, 162, 144);
+}
+
+/*BOTÃO RESULTADO HOVER*/
+.btn-res:hover {
+    background-color: rgba(107, 170, 119, 0.884);
+}
