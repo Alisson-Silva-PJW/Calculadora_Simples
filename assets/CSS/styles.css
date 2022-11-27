@@ -38,7 +38,7 @@ body {
 }
 
 /*BOTÕES*/
-.btn {
+.bt {
     width: 100%;
     padding: 10px;
     background-color: rgb(215, 198, 176);
@@ -50,11 +50,11 @@ body {
 }
 
 /*BOTÃO HOVER*/
-.btn:hover {
+.bt:hover {
     background-color: rgb(176, 162, 144);
 }
 
 /*BOTÃO RESULTADO HOVER*/
-.btn-res:hover {
+.bt-res:hover {
     background-color: rgba(107, 170, 119, 0.884);
 }
